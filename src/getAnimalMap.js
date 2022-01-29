@@ -19,7 +19,7 @@ const globalMap = () => {
   }, {});
   return reducing;
 };
-
+// NESSA PARTE EM QUE FOI USADO O SPREAD OPERATOR, ALGUMAS LINHAS ABAIXO, TIVE AJUDA DO CHRISTIAN MENDES, QUE ME SUGERIU O USO DO MESMO.
 const filteringByRegion = (region) => animals.filter(({ location }) => location === region);
 const namesAnimals = (options) => {
   if (!options.sorted) {
